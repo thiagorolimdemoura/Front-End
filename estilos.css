@@ -29,6 +29,8 @@
 body{
     color: #333333;
     font-family: 'Lucida Sans Unicode','Lucida Grande', sans-serif;;
+	max-width: 940px;
+	margin: 0 auto;
 }
 
 .container{
@@ -51,7 +53,7 @@ header{
     background-color: #dcdcdc;
     font-weight: bold;
     text-transform: uppercase;
-
+	width: 280px;
     margin-right: 10px;
     widows: 230px;
 }
@@ -62,6 +64,14 @@ header{
     margin: 10px;
 }
 
+.logo {
+	width: 64px;
+	max-width: 64px;
+}
+.banner-destaque img {
+	width: 630px;
+	height: 80px
+}
 .menu-departamentos li{
     background-color: white;
     margin-bottom: 1px;
